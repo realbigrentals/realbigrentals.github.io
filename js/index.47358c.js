@@ -33,7 +33,6 @@ var e=document.querySelector('.js3');e.setAttribute('src',(dpi>1)?'images/extern
 var e=document.querySelector('.js4');e.setAttribute('src',(dpi>1)?'images/external-content.duckduckgo-1-104.png':'images/external-content.duckduckgo-1-52.png');}}};
 if(!window.HTMLPictureElement){$(window).resize(r);r();}
 (function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(i,e){$(e).click(function(){var t=e.hash.length>1?$('[name="'+e.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
-initMenu($('#m1')[0]);
 ldsrc('.js5');ldsrcset('.js46 source');ldsrc('.js7');ldsrcset('.js47 source');ldsrc('.js9');ldsrcset('.js48 source');$('.js1 .slider').slick({lazyLoad: 'ondemand',slidesToShow: 1,slidesToScroll: 1,overflow: 'hidden',fade: true,slide: 'div',cssEase: 'linear',speed: 300,dots: false,arrows: false,infinite: true,autoplay: true,pauseOnHover: false,autoplaySpeed: 2500});wl=new woolite();
 wl.init();
 wl.addAnimation($('.js2')[0], "1.00s", "0.00s", 1, 100);
